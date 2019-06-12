@@ -21,4 +21,4 @@ sudo apt install python3-dev python3-pip
 
 ## Install python requirements
 
-1. `pip3 -r requirements.txt`
+1. `pip3 install -r requirements.txt`
