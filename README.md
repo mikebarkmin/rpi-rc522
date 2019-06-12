@@ -28,12 +28,20 @@ spi_bcm2835            16384  0
 ## Install additional packages
 
 ```
-sudo apt install python3-dev python3-pip
+sudo apt install python3-dev python3-pip git
+```
+
+## Clone repository
+
+```
+cd ~ # clone repository in home directory
+git clone https://github.com/mikebarkmin/rpi-rc522.git
 ```
 
 ## Install python requirements
 
 ```
+cd rpi-rc522
 pip3 install -r requirements.txt
 ```
 
