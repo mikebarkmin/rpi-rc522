@@ -1,7 +1,19 @@
-# Requirements
+# Setup
+
+## Pin Connections
+
+| RF522 Modul |      Raspberry Pi      |
+| :---------: | :--------------------: |
+|     SDA     |  Pin 24 / GPIO8 (CE0)  |
+|     SCK     | Pin 23 / GPIO11 (SCKL) |
+|    MOSI     | Pin 19 / GPIO10 (MOSI) |
+|    MISO     | Pin 21 / GPIO9 (MISO)  |
+|     IRQ     |           —            |
+|     GND     |       Pin6 (GN)        |
+|     RST     |     Pin22 / GPIO25     |
+|    3.3V     |      Pin 1 (3V3)       |
 
 ## Activate SPI Interface
-
 
 1. Open raspi-config `sudo raspi-config`
 1. Go to `5 Interfacing Options`
@@ -21,4 +33,14 @@ sudo apt install python3-dev python3-pip
 
 ## Install python requirements
 
-1. `pip3 install -r requirements.txt`
+```
+pip3 install -r requirements.txt
+```
+
+# Use
+
+## Start read test
+
+```
+python3 read.py
+```
