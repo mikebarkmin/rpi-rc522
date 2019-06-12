@@ -9,7 +9,7 @@
 |    MOSI     | Pin 19 / GPIO10 (MOSI) |
 |    MISO     | Pin 21 / GPIO9 (MISO)  |
 |     IRQ     |           —            |
-|     GND     |       Pin6 (GN)        |
+|     GND     |       Pin6 (GND)       |
 |     RST     |     Pin22 / GPIO25     |
 |    3.3V     |      Pin 1 (3V3)       |
 
@@ -38,7 +38,7 @@ cd ~ # clone repository in home directory
 git clone https://github.com/mikebarkmin/rpi-rc522.git
 ```
 
-## Install python requirements
+## Install python3 requirements
 
 ```
 cd rpi-rc522
