@@ -1,4 +1,5 @@
 import RPi.GPIO as GPIO
+from time import sleep
 from mfrc522 import SimpleMFRC522
 
 reader = SimpleMFRC522()
